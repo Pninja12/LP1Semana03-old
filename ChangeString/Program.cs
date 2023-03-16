@@ -10,10 +10,11 @@ namespace ChangeString
             string str = Console.ReadLine();
             Console.Write("Char: ");
             string char_ = Console.ReadLine();
+            char character= char.Parse(char_);//troca varável "char_" tipo string por "character" tipo char
 
-            foreach (string s in str)
+            foreach(char s in str)//carácter por carácter da lista de "str"
             {
-                if (s != char_)
+                if (s != character)//se o "s" for igual à palavra "proibida" então não mostra nada no ecrã
                 {
                     Console.Write(s);
                 }
