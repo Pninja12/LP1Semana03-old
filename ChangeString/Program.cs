@@ -10,7 +10,7 @@ namespace ChangeString
             string str = Console.ReadLine();
             Console.Write("Char: ");
             string char_ = Console.ReadLine();
-            char character= char.Parse(char_);//troca varável "char_" tipo string por "character" tipo char
+            char character= char.Parse(char_);//troca variável "char_" tipo string por "character" tipo char
 
             foreach(char s in str)//carácter por carácter da lista de "str"
             {
