@@ -62,10 +62,7 @@ namespace PlayerPerks
                 {
                     Console.WriteLine("Not gonna make it!");
                 }
-                
             }
-            
-
         }
     }
 }
